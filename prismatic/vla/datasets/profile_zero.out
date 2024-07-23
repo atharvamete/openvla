@@ -1,0 +1,690 @@
+07/21 [14:38:50] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/fracta                    
+                          l20220817_data/0.1.0                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          fractal20220817_data for split all, from                            
+                          /ssdscratch/scml-shared/amete7/openx_data/fract                     
+                          al20220817_data/0.1.0                                               
+07/21 [14:38:51] INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/fractal2                  
+                          0220817_data/0.1.0/dataset_statistics_b36bac569934                  
+                          1fbc1aa9486e94819d8f33d0839f3295fbe1333607e891c171                  
+                          88.json.                                                            
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          fractal20220817_data for split train[:95%],                         
+                          from                                                                
+                          /ssdscratch/scml-shared/amete7/openx_data/fract                     
+                          al20220817_data/0.1.0                                               
+07/21 [14:38:52] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset kuka for      logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/                     
+                          0.1.0                                                               
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/0.1                  
+                          .0/dataset_statistics_335ca38f347a14bcc158cca31a87                  
+                          b58e7a17f09ee0e1536aa76fcdf3b6f8bba2.json.                          
+                 INFO     | >> Constructing tf.data.Dataset kuka for      logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/                     
+                          0.1.0                                                               
+07/21 [14:38:53] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_p                    
+                          lay/0.1.0                                                           
+                 INFO     | >> Constructing tf.data.Dataset taco_play for logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_                     
+                          play/0.1.0                                                          
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_pla                  
+                          y/0.1.0/dataset_statistics_7d568f012d9a0664559715e                  
+                          78c43e525f1f64694bfecb65b5528990b1f16fdfe.json.                     
+                 INFO     | >> Constructing tf.data.Dataset taco_play for logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_                     
+                          play/0.1.0                                                          
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_p                    
+                          lay/0.1.0                                                           
+                 INFO     | >> Constructing tf.data.Dataset jaco_play for logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_                     
+                          play/0.1.0                                                          
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_pla                  
+                          y/0.1.0/dataset_statistics_bcfef82f7c3dff74c3e0870                  
+                          722096287d43e5b7ff173eb75468dcf0784ede26e.json.                     
+                 INFO     | >> Constructing tf.data.Dataset jaco_play for logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_                     
+                          play/0.1.0                                                          
+07/21 [14:38:54] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/robotu                    
+                          rk/0.1.0                                                            
+                 INFO     | >> Constructing tf.data.Dataset roboturk for  logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/robot                     
+                          urk/0.1.0                                                           
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/roboturk                  
+                          /0.1.0/dataset_statistics_f8b81df5c4475b5ef4f984d8                  
+                          0e74f374af2f9d831a2b67b1f0108cf420552363.json.                      
+                 INFO     | >> Constructing tf.data.Dataset roboturk for  logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/robot                     
+                          urk/0.1.0                                                           
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/viola/                    
+                          0.1.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset viola for     logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/viola                     
+                          /0.1.0                                                              
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/viola/0.                  
+                          1.0/dataset_statistics_e95069e6a2d90e18234f5ab358b                  
+                          c498f4f43ad7587298479148f419fcc589432.json.                         
+                 INFO     | >> Constructing tf.data.Dataset viola for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/viola                     
+                          /0.1.0                                                              
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/berkel                    
+                          ey_autolab_ur5/0.1.0                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_autolab_ur5 for split all, from                            
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_autolab_ur5/0.1.0                                               
+07/21 [14:38:55] INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/berkeley                  
+                          _autolab_ur5/0.1.0/dataset_statistics_70b5907dd896                  
+                          38af6b5346d06b0840665d91e67aeb343636f23ed3885c8e5b                  
+                          6c.json.                                                            
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_autolab_ur5 for split train[:95%],                         
+                          from                                                                
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_autolab_ur5/0.1.0                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/langua                    
+                          ge_table/0.1.0                                                      
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          language_table for split all, from                                  
+                          /ssdscratch/scml-shared/amete7/openx_data/langu                     
+                          age_table/0.1.0                                                     
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/language                  
+                          _table/0.1.0/dataset_statistics_ad27b41fce74a50609                  
+                          432764e0b23768cddba1ad0e0ef677287956d2cc78405e.jso                  
+                          n.                                                                  
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          language_table for split train[:95%], from                          
+                          /ssdscratch/scml-shared/amete7/openx_data/langu                     
+                          age_table/0.1.0                                                     
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/stanfo                    
+                          rd_hydra_dataset_converted_externally_to_rlds/0.                    
+                          1.0                                                                 
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          stanford_hydra_dataset_converted_externally_to_                     
+                          rlds for split all, from                                            
+                          /ssdscratch/scml-shared/amete7/openx_data/stanf                     
+                          ord_hydra_dataset_converted_externally_to_rlds/                     
+                          0.1.0                                                               
+07/21 [14:38:56] INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/stanford                  
+                          _hydra_dataset_converted_externally_to_rlds/0.1.0/                  
+                          dataset_statistics_ecbca3a519edc96ba1b3386c0db57d6                  
+                          f142c7546151ac2c074f9e0d18c307c30.json.                             
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          stanford_hydra_dataset_converted_externally_to_                     
+                          rlds for split train[:95%], from                                    
+                          /ssdscratch/scml-shared/amete7/openx_data/stanf                     
+                          ord_hydra_dataset_converted_externally_to_rlds/                     
+                          0.1.0                                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/austin                    
+                          _buds_dataset_converted_externally_to_rlds/0.1.0                    
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          austin_buds_dataset_converted_externally_to_rld                     
+                          s for split all, from                                               
+                          /ssdscratch/scml-shared/amete7/openx_data/austi                     
+                          n_buds_dataset_converted_externally_to_rlds/0.1                     
+                          .0                                                                  
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/austin_b                  
+                          uds_dataset_converted_externally_to_rlds/0.1.0/dat                  
+                          aset_statistics_76ce4d6c0b6306d3415ab4120da40c838a                  
+                          29c5f71e7d53fba00d33d553f96db5.json.                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          austin_buds_dataset_converted_externally_to_rld                     
+                          s for split train[:95%], from                                       
+                          /ssdscratch/scml-shared/amete7/openx_data/austi                     
+                          n_buds_dataset_converted_externally_to_rlds/0.1                     
+                          .0                                                                  
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_k                    
+                          itchen_dataset_converted_externally_to_rlds/0.1.                    
+                          0                                                                   
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          ucsd_kitchen_dataset_converted_externally_to_rl                     
+                          ds for split all, from                                              
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_                     
+                          kitchen_dataset_converted_externally_to_rlds/0.                     
+                          1.0                                                                 
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_kit                  
+                          chen_dataset_converted_externally_to_rlds/0.1.0/da                  
+                          taset_statistics_7d03ec6a93508938aedb213b459761a90                  
+                          d3d77a5cbd98a499d3db8c1733d6c50.json.                               
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          ucsd_kitchen_dataset_converted_externally_to_rl                     
+                          ds for split train[:95%], from                                      
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_                     
+                          kitchen_dataset_converted_externally_to_rlds/0.                     
+                          1.0                                                                 
+07/21 [14:38:57] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_ed                    
+                          an_shared_control_converted_externally_to_rlds/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          dlr_edan_shared_control_converted_externally_to                     
+                          _rlds for split all, from                                           
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_e                     
+                          dan_shared_control_converted_externally_to_rlds                     
+                          /0.1.0                                                              
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_edan                  
+                          _shared_control_converted_externally_to_rlds/0.1.0                  
+                          /dataset_statistics_eaa961210b45bc1ca82ad28281dc19                  
+                          4046b2adbe814b725d279d721fde22db7a.json.                            
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          dlr_edan_shared_control_converted_externally_to                     
+                          _rlds for split train[:95%], from                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_e                     
+                          dan_shared_control_converted_externally_to_rlds                     
+                          /0.1.0                                                              
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/iamlab                    
+                          _cmu_pickup_insert_converted_externally_to_rlds/                    
+                          0.1.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          iamlab_cmu_pickup_insert_converted_externally_t                     
+                          o_rlds for split all, from                                          
+                          /ssdscratch/scml-shared/amete7/openx_data/iamla                     
+                          b_cmu_pickup_insert_converted_externally_to_rld                     
+                          s/0.1.0                                                             
+07/21 [14:38:58] INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/iamlab_c                  
+                          mu_pickup_insert_converted_externally_to_rlds/0.1.                  
+                          0/dataset_statistics_4e397beb20bf0d8903596824fdee6                  
+                          465106a3153556e85dbe975c94f0e69e7e3.json.                           
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          iamlab_cmu_pickup_insert_converted_externally_t                     
+                          o_rlds for split train[:95%], from                                  
+                          /ssdscratch/scml-shared/amete7/openx_data/iamla                     
+                          b_cmu_pickup_insert_converted_externally_to_rld                     
+                          s/0.1.0                                                             
+07/21 [14:38:59] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/utaust                    
+                          in_mutex/0.1.0                                                      
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          utaustin_mutex for split all, from                                  
+                          /ssdscratch/scml-shared/amete7/openx_data/utaus                     
+                          tin_mutex/0.1.0                                                     
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/utaustin                  
+                          _mutex/0.1.0/dataset_statistics_14139f89088ba92d75                  
+                          bc56303216d95ed00ac9a861e6fa4adfbc240e5c6e6d87.jso                  
+                          n.                                                                  
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          utaustin_mutex for split train[:95%], from                          
+                          /ssdscratch/scml-shared/amete7/openx_data/utaus                     
+                          tin_mutex/0.1.0                                                     
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/berkel                    
+                          ey_fanuc_manipulation/0.1.0                                         
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_fanuc_manipulation for split all, from                     
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_fanuc_manipulation/0.1.0                                        
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/berkeley                  
+                          _fanuc_manipulation/0.1.0/dataset_statistics_3b699                  
+                          a0a714daae92547121189b15e4023b4d697f21a8ba64522bfe                  
+                          d6560e56f.json.                                                     
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_fanuc_manipulation for split                               
+                          train[:95%], from                                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_fanuc_manipulation/0.1.0                                        
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_st                    
+                          retch/0.1.0                                                         
+                 INFO     | >> Constructing tf.data.Dataset cmu_stretch   logging_logger.py:49
+                          for split all, from                                                 
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_s                     
+                          tretch/0.1.0                                                        
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_stre                  
+                          tch/0.1.0/dataset_statistics_07f194b317190ac907cc9                  
+                          ac960225a311e4a6b98e824502b5fb61da5e035d9b5.json.                   
+07/21 [14:39:00] INFO     | >> Constructing tf.data.Dataset cmu_stretch   logging_logger.py:49
+                          for split train[:95%], from                                         
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_s                     
+                          tretch/0.1.0                                                        
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset bc_z for      logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/                     
+                          0.1.0                                                               
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/0.1                  
+                          .0/dataset_statistics_0d64c24fcd3930a261c092b4d3ce                  
+                          4c1a2abfe521a97fb9c9e244cb0c87a13679.json.                          
+                 INFO     | >> Constructing tf.data.Dataset bc_z for      logging_logger.py:49
+                          split train, from                                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/                     
+                          0.1.0                                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe/                    
+                          0.0.1                                                               
+                 INFO     | >> Constructing tf.data.Dataset dobbe for     logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe                     
+                          /0.0.1                                                              
+07/21 [14:39:01] INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe/0.                  
+                          0.1/dataset_statistics_fa99b91fca4ab3c83a96760e812                  
+                          04f92de62f92f5d79fdfe41209ff009063bff.json.                         
+                 INFO     | >> Constructing tf.data.Dataset dobbe for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe                     
+                          /0.0.1                                                              
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/droid/                    
+                          1.4.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset droid for     logging_logger.py:49
+                          split all, from                                                     
+                          /ssdscratch/scml-shared/amete7/openx_data/droid                     
+                          /1.4.0                                                              
+                 INFO     | >> [*] Loading existing dataset statistics from  data_utils.py:208
+                          /ssdscratch/scml-shared/amete7/openx_data/droid/1.                  
+                          4.0/dataset_statistics_c325d2b70aee612aa4104f5b413                  
+                          82feca45b832be57bbcc24b625d7ad2b6b945.json.                         
+                 INFO     | >> Constructing tf.data.Dataset droid for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/droid                     
+                          /1.4.0                                                              
+
+######################################################################################
+# Loading the following 19 datasets (incl. sampling weight):                         #
+# fractal20220817_data: ====================================================0.193979 #
+# kuka: ====================================================================0.194027 #
+# taco_play: ===============================================================0.045048 #
+# jaco_play: ===============================================================0.007385 #
+# roboturk: ================================================================0.035521 #
+# viola: ===================================================================0.014459 #
+# berkeley_autolab_ur5: ====================================================0.018553 #
+# language_table: ==========================================================0.066734 #
+# stanford_hydra_dataset_converted_externally_to_rlds: =====================0.067863 #
+# austin_buds_dataset_converted_externally_to_rlds: ========================0.003231 #
+# ucsd_kitchen_dataset_converted_externally_to_rlds: =======================0.000752 #
+# dlr_edan_shared_control_converted_externally_to_rlds: ====================0.000846 #
+# iamlab_cmu_pickup_insert_converted_externally_to_rlds: ===================0.013852 #
+# utaustin_mutex: ==========================================================0.034277 #
+# berkeley_fanuc_manipulation: =============================================0.011861 #
+# cmu_stretch: =============================================================0.002369 #
+# bc_z: ====================================================================0.113956 #
+# dobbe: ===================================================================0.021594 #
+# droid: ===================================================================0.153695 #
+######################################################################################
+
+                 INFO     | >> [*] Threads per Dataset: [1 1 1 1 1 1 1 1 1 1 1  dataset.py:531
+                          1 1 1 1 1 1 1 1]                                                    
+                 INFO     | >> [*] Reads per Dataset: [1 1 1 1 1 1 1 1 1 1 1 1  dataset.py:532
+                          1 1 1 1 1 1 1]                                                      
+                 INFO     | >> [*] Constructing datasets...                     dataset.py:535
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/fracta                    
+                          l20220817_data/0.1.0                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          fractal20220817_data for split train[:95%],                         
+                          from                                                                
+                          /ssdscratch/scml-shared/amete7/openx_data/fract                     
+                          al20220817_data/0.1.0                                               
+07/21 [14:39:03] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset kuka for      logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/kuka/                     
+                          0.1.0                                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_p                    
+                          lay/0.1.0                                                           
+                 INFO     | >> Constructing tf.data.Dataset taco_play for logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/taco_                     
+                          play/0.1.0                                                          
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_p                    
+                          lay/0.1.0                                                           
+                 INFO     | >> Constructing tf.data.Dataset jaco_play for logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/jaco_                     
+                          play/0.1.0                                                          
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/robotu                    
+                          rk/0.1.0                                                            
+07/21 [14:39:04] INFO     | >> Constructing tf.data.Dataset roboturk for  logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/robot                     
+                          urk/0.1.0                                                           
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/viola/                    
+                          0.1.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset viola for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/viola                     
+                          /0.1.0                                                              
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/berkel                    
+                          ey_autolab_ur5/0.1.0                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_autolab_ur5 for split train[:95%],                         
+                          from                                                                
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_autolab_ur5/0.1.0                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/langua                    
+                          ge_table/0.1.0                                                      
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          language_table for split train[:95%], from                          
+                          /ssdscratch/scml-shared/amete7/openx_data/langu                     
+                          age_table/0.1.0                                                     
+07/21 [14:39:05] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/stanfo                    
+                          rd_hydra_dataset_converted_externally_to_rlds/0.                    
+                          1.0                                                                 
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          stanford_hydra_dataset_converted_externally_to_                     
+                          rlds for split train[:95%], from                                    
+                          /ssdscratch/scml-shared/amete7/openx_data/stanf                     
+                          ord_hydra_dataset_converted_externally_to_rlds/                     
+                          0.1.0                                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/austin                    
+                          _buds_dataset_converted_externally_to_rlds/0.1.0                    
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          austin_buds_dataset_converted_externally_to_rld                     
+                          s for split train[:95%], from                                       
+                          /ssdscratch/scml-shared/amete7/openx_data/austi                     
+                          n_buds_dataset_converted_externally_to_rlds/0.1                     
+                          .0                                                                  
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_k                    
+                          itchen_dataset_converted_externally_to_rlds/0.1.                    
+                          0                                                                   
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          ucsd_kitchen_dataset_converted_externally_to_rl                     
+                          ds for split train[:95%], from                                      
+                          /ssdscratch/scml-shared/amete7/openx_data/ucsd_                     
+                          kitchen_dataset_converted_externally_to_rlds/0.                     
+                          1.0                                                                 
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_ed                    
+                          an_shared_control_converted_externally_to_rlds/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          dlr_edan_shared_control_converted_externally_to                     
+                          _rlds for split train[:95%], from                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/dlr_e                     
+                          dan_shared_control_converted_externally_to_rlds                     
+                          /0.1.0                                                              
+07/21 [14:39:06] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/iamlab                    
+                          _cmu_pickup_insert_converted_externally_to_rlds/                    
+                          0.1.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          iamlab_cmu_pickup_insert_converted_externally_t                     
+                          o_rlds for split train[:95%], from                                  
+                          /ssdscratch/scml-shared/amete7/openx_data/iamla                     
+                          b_cmu_pickup_insert_converted_externally_to_rld                     
+                          s/0.1.0                                                             
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/utaust                    
+                          in_mutex/0.1.0                                                      
+                 INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          utaustin_mutex for split train[:95%], from                          
+                          /ssdscratch/scml-shared/amete7/openx_data/utaus                     
+                          tin_mutex/0.1.0                                                     
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/berkel                    
+                          ey_fanuc_manipulation/0.1.0                                         
+07/21 [14:39:07] INFO     | >> Constructing tf.data.Dataset               logging_logger.py:49
+                          berkeley_fanuc_manipulation for split                               
+                          train[:95%], from                                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/berke                     
+                          ley_fanuc_manipulation/0.1.0                                        
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_st                    
+                          retch/0.1.0                                                         
+                 INFO     | >> Constructing tf.data.Dataset cmu_stretch   logging_logger.py:49
+                          for split train[:95%], from                                         
+                          /ssdscratch/scml-shared/amete7/openx_data/cmu_s                     
+                          tretch/0.1.0                                                        
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/0                    
+                          .1.0                                                                
+                 INFO     | >> Constructing tf.data.Dataset bc_z for      logging_logger.py:49
+                          split train, from                                                   
+                          /ssdscratch/scml-shared/amete7/openx_data/bc_z/                     
+                          0.1.0                                                               
+                 INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe/                    
+                          0.0.1                                                               
+                 INFO     | >> Constructing tf.data.Dataset dobbe for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/dobbe                     
+                          /0.0.1                                                              
+07/21 [14:39:08] INFO     | >> Load dataset info from                      dataset_info.py:599
+                          /ssdscratch/scml-shared/amete7/openx_data/droid/                    
+                          1.4.0                                                               
+                 INFO     | >> Constructing tf.data.Dataset droid for     logging_logger.py:49
+                          split train[:95%], from                                             
+                          /ssdscratch/scml-shared/amete7/openx_data/droid                     
+                          /1.4.0                                                              
+                 INFO     | >> [*] Applying frame transforms on dataset...      dataset.py:575
+
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 14:38:50  Samples:  17096
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 19.187    CPU time: 19.271
+/   _/                      v4.6.2
+
+Program: datasets.py
+
+19.187 <module>  datasets.py:1
+└─ 19.187 RLDSDataset_action.__init__  datasets.py:78
+   └─ 19.187 RLDSDataset_action.make_dataset  datasets.py:149
+      └─ 19.186 make_interleaved_dataset  rlds/dataset.py:457
+         ├─ 15.460 make_dataset_from_rlds  rlds/dataset.py:39
+         │  ├─ 7.554 wrapper  dlimp/dataset.py:16
+         │  │     [34 frames hidden]  dlimp, tensorflow, <built-in>
+         │  │        6.162 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        ├─ 4.647 tf__restructure  ../__autograph_generated_filemv_unp2l.py:14
+         │  │        │  ├─ 4.040 if_stmt  tensorflow/python/autograph/operators/control_flow.py:1170
+         │  │        │  │     [2 frames hidden]  tensorflow
+         │  │        │  │        4.036 _py_if_stmt  tensorflow/python/autograph/operators/control_flow.py:1268
+         │  │        │  │        └─ 3.912 if_body  ../__autograph_generated_filemv_unp2l.py:26
+         │  │        │  │           └─ 3.912 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  │                 [35 frames hidden]  tensorflow, ast
+         │  │        │  │                    1.374 tf__iamlab_pick_insert_dataset_transform  ../__autograph_generated_filemis4jcbk.py:6
+         │  │        │  │                    └─ 1.357 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  │                          [6 frames hidden]  tensorflow
+         │  │        │  │                             0.984 tf__from_quaternion  ../__autograph_generated_file0sez3zte.py:7
+         │  │        │  │                             └─ 0.955 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  │                                   [6 frames hidden]  tensorflow
+         │  │        │  │                                      0.204 tf__safe_shrink  ../__autograph_generated_filem9pn3z37.py:7
+         │  │        │  │                    0.262 tf__rt1_dataset_transform  ../__autograph_generated_filezzw0twdl.py:6
+         │  │        │  │                    └─ 0.255 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  └─ 0.545 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │        [8 frames hidden]  tensorflow
+         │  │        ├─ 0.980 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  ├─ 0.611 tf__normalize_action_and_proprio  ../__autograph_generated_file6oailxbt.py:6
+         │  │        │  │  └─ 0.609 if_stmt  tensorflow/python/autograph/operators/control_flow.py:1170
+         │  │        │  │        [2 frames hidden]  tensorflow
+         │  │        │  │           0.608 _py_if_stmt  tensorflow/python/autograph/operators/control_flow.py:1268
+         │  │        │  │           └─ 0.608 else_body_4  ../__autograph_generated_file6oailxbt.py:46
+         │  │        │  │              └─ 0.607 if_stmt  tensorflow/python/autograph/operators/control_flow.py:1170
+         │  │        │  │                    [2 frames hidden]  tensorflow
+         │  │        │  │                       0.605 _py_if_stmt  tensorflow/python/autograph/operators/control_flow.py:1268
+         │  │        │  │                       └─ 0.605 if_body_2  ../__autograph_generated_file6oailxbt.py:56
+         │  │        │  │                          └─ 0.604 for_stmt  tensorflow/python/autograph/operators/control_flow.py:392
+         │  │        │  │                                [3 frames hidden]  tensorflow
+         │  │        │  │                                   0.599 protected_body  tensorflow/python/autograph/operators/control_flow.py:465
+         │  │        │  │                                   └─ 0.599 loop_body_1  ../__autograph_generated_file6oailxbt.py:66
+         │  │        │  │                                      └─ 0.591 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        │  │                                         └─ 0.369 tf__selective_tree_map  ../__autograph_generated_file8kl5ndxk.py:6
+         │  │        │  │                                            └─ 0.360 for_stmt  tensorflow/python/autograph/operators/control_flow.py:392
+         │  │        │  │                                                  [3 frames hidden]  tensorflow
+         │  │        │  │                                                     0.358 protected_body  tensorflow/python/autograph/operators/control_flow.py:465
+         │  │        │  │                                                     └─ 0.356 loop_body  ../__autograph_generated_file8kl5ndxk.py:52
+         │  │        │  │                                                        └─ 0.346 if_stmt  tensorflow/python/autograph/operators/control_flow.py:1170
+         │  │        │  │                                                              [2 frames hidden]  tensorflow
+         │  ├─ 7.338 from_rlds  dlimp/dataset.py:127
+         │  │     [144 frames hidden]  dlimp, tensorflow, typing, <built-in>...
+         │  │        1.889 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │        └─ 1.774 tf___broadcast_metadata_rlds  ../__autograph_generated_file4wjcd9gj.py:6
+         │  │           └─ 1.708 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │                 [18 frames hidden]  tensorflow
+         │  │                    0.704 <listcomp>  tensorflow/python/util/nest_util.py:1106
+         │  │                    └─ 0.704 <lambda>  ../__autograph_generated_file4wjcd9gj.py:17
+         │  │                       └─ 0.704 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │  │                             [11 frames hidden]  tensorflow
+         │  └─ 0.499 inner  contextlib.py:76
+         │        [14 frames hidden]  contextlib, tensorflow_datasets
+         ├─ 2.491 apply_trajectory_transforms  rlds/dataset.py:254
+         │  └─ 2.491 wrapper  dlimp/dataset.py:16
+         │        [24 frames hidden]  dlimp, tensorflow
+         │           1.333 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │           ├─ 0.695 tf__chunk_act_obs  ../__autograph_generated_files2mi_8be.py:6
+         │           │  ├─ 0.408 error_handler  tensorflow/python/util/traceback_utils.py:138
+         │           │  │     [13 frames hidden]  tensorflow
+         │           │  └─ 0.274 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │           │        [2 frames hidden]  tensorflow
+         │           └─ 0.286 tf__uniform  ../__autograph_generated_file7l0553zr.py:6
+         │              └─ 0.230 converted_call  tensorflow/python/autograph/impl/api.py:295
+         ├─ 0.837 apply_frame_transforms  rlds/dataset.py:369
+         │  └─ 0.837 wrapper  dlimp/dataset.py:16
+         │        [19 frames hidden]  dlimp, tensorflow
+         │           0.607 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │           └─ 0.566 tf__apply_obs_transform  ../__autograph_generated_file72a7h734.py:6
+         │              └─ 0.566 converted_call  tensorflow/python/autograph/impl/api.py:295
+         │                    [7 frames hidden]  tensorflow
+         └─ 0.242 wrapper  dlimp/dataset.py:16
+               [6 frames hidden]  dlimp, tensorflow
+
+
+{'actions': array([[ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 8.71065855e-02, -3.16520333e-02, -8.89307261e-03,
+        -2.60469913e-02, -2.84415483e-02,  7.87186623e-02,
+         1.00000000e+00],
+       [ 2.60852098e-01, -1.04996204e-01, -3.52334380e-02,
+         3.94110680e-02, -9.56500173e-02,  2.20384479e-01,
+         1.00000000e+00],
+       [ 4.29518700e-01, -1.81981921e-01, -7.34161139e-02,
+         1.20204926e-01, -5.15579581e-02,  2.68557310e-01,
+         1.00000000e+00],
+       [ 5.90287089e-01, -2.54169226e-01, -1.18072808e-01,
+         2.20382214e-01, -1.49219632e-02,  3.15750957e-01,
+         1.00000000e+00],
+       [ 7.50206947e-01, -3.11925411e-01, -1.67524874e-01,
+         2.23245978e-01,  9.57195759e-02,  1.83075428e-01,
+         1.00000000e+00],
+       [ 8.83960724e-01, -3.53949428e-01, -1.98418736e-01,
+         2.92750359e-01,  2.13257790e-01,  1.82887793e-01,
+         1.00000000e+00],
+       [ 9.18216467e-01, -3.43324304e-01, -1.97505116e-01,
+         3.56648922e-01,  3.58551502e-01,  2.26933479e-01,
+         1.00000000e+00],
+       [ 9.30698395e-01, -3.16925943e-01, -1.82645857e-01,
+         3.08031440e-01,  4.42273021e-01,  1.42662883e-01,
+         1.00000000e+00],
+       [ 9.45788026e-01, -2.81386554e-01, -1.62195683e-01,
+         3.74740481e-01,  6.41752124e-01,  1.68951511e-01,
+         1.00000000e+00],
+       [ 9.59673405e-01, -2.43688285e-01, -1.40155792e-01,
+         3.69056344e-01,  7.68422723e-01,  1.16643310e-01,
+         1.00000000e+00],
+       [ 9.67341423e-01, -2.14691043e-01, -1.34754658e-01,
+         3.53355646e-01,  8.81145358e-01,  6.39001131e-02,
+         1.00000000e+00],
+       [ 9.73973989e-01, -1.83914542e-01, -1.32477939e-01,
+         2.37206340e-01,  9.70239639e-01, -4.87853289e-02,
+         1.00000000e+00],
+       [ 9.77513671e-01, -1.59631193e-01, -1.37787580e-01,
+         6.01276159e-02,  9.74314094e-01, -2.17039108e-01,
+         1.00000000e+00],
+       [ 9.80594635e-01, -1.37793183e-01, -1.39455199e-01,
+         1.93793774e-02,  9.67324257e-01, -2.52817929e-01,
+         1.00000000e+00],
+       [ 9.83253241e-01, -1.25392973e-01, -1.32249713e-01,
+         1.12072587e-01,  9.65352058e-01, -2.35679984e-01,
+         1.00000000e+00],
+       [ 9.85208154e-01, -1.12455428e-01, -1.29302263e-01,
+         2.99393535e-01,  8.27023268e-01, -1.07730627e-02,
+         1.00000000e+00],
+       [ 9.87023473e-01, -1.11684442e-01, -1.15376115e-01,
+         2.68171310e-01,  7.13086486e-01, -3.11695337e-02,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.19209290e-07,  1.66893005e-06, -6.55651093e-07,
+         5.24520874e-06,  1.43051147e-06,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.74567342e-01, -5.36376238e-02,  1.70314312e-03,
+        -3.02098393e-02, -5.39261103e-03, -1.09909952e-01,
+         1.00000000e+00],
+       [ 4.10529137e-01, -1.30019665e-01, -2.42292881e-04,
+         4.80624437e-02,  1.31089211e-01, -2.18093872e-01,
+         1.00000000e+00]], dtype=float32), 'dataset_name': b'droid'}
